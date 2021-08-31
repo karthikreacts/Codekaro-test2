@@ -1,0 +1,103 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+.card-container {
+  margin: 50px;
+  height: 300px;
+  width: 600px;
+  background-color: rgb(247, 245, 290);
+  border-radius: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+svg {
+  margin-right: 10px;
+}
+.card-data {
+  margin: 20px;
+}
+.live {
+  display: inline-block;
+  background-color: rgb(222, 83, 82);
+  padding: 2px 11px;
+  border-radius: 30px;
+  color: white;
+}
+.dot {
+  height: 5px;
+  width: 5px;
+  background-color: white;
+  border-radius: 50%;
+  display: inline-block;
+  margin-right: 3px;
+}
+.title {
+  padding-top: 10px;
+}
+
+.card-line {
+  display: flex;
+  padding: 10px 10px 10px 0px;
+  color: rgb(142, 141, 145);
+  font-size: 17px;
+}
+.organizer {
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+.organizer-name {
+  display: inline-block;
+}
+
+.profile {
+  height: 140px;
+  width: 230px;
+  border-radius: 20px;
+  margin: 20px;
+}
+.join {
+  height: 50px;
+  width: 100px;
+  text-decoration: none;
+  color: white;
+  background-color: rgb(79, 133, 246);
+  padding: 10px;
+  font-size: 25px;
+  font-weight: 600;
+  border-radius: 30px;
+  position: relative;
+  top: 50px;
+  left: 110px;
+}
+.join:hover {
+  background-color: rgb(11, 83, 238);
+}
+.participants {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  position: relative;
+  border: 3px solid white;
+}
+.user1 {
+  z-index: 1;
+}
+.user2 {
+  z-index: 2;
+  right: 25px;
+}
+.user3 {
+  z-index: 3;
+  right: 50px;
+}
